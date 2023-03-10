@@ -358,6 +358,11 @@ namespace MicroMod
 			DrawSectionHeader("Vessel", ref popoutVes, activeVessel.DisplayName);
 
 			DrawEntry("Mass", $"{activeVessel.totalMass * 1000:N0}", "kg");
+			
+			using(StreamWriter = new StreamWriter(C:\Users\AleCa\OneDrive\Documents\KSP FILES))
+			{
+				writer.WriteLine(("Mass", $"{activeVessel.totalMass * 1000:N0}", "kg");
+			}
 
 			VesselDeltaVComponent deltaVComponent = activeVessel.VesselDeltaV;
 			if (deltaVComponent != null)
