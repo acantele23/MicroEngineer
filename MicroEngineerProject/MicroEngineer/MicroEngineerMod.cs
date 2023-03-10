@@ -359,7 +359,7 @@ namespace MicroMod
 
 			DrawEntry("Mass", $"{activeVessel.totalMass * 1000:N0}", "kg");
 			
-			using(StreamWriter = new StreamWriter(C:\Users\AleCa\OneDrive\Documents\KSP FILES))
+			using(StreamWriter = new StreamWriter("C:\Users\AleCa\OneDrive\Documents\KSP FILES\KSPDATA.txt"))
 			{
 				writer.WriteLine(("Mass", $"{activeVessel.totalMass * 1000:N0}", "kg");
 			}
